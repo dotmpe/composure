@@ -215,7 +215,7 @@ _generate_metadata_functions() {
 
 _list_composure_files () {
   typeset composure_dir="$(_get_composure_dir)"
-  [ -d "$composure_dir" ] && find "$composure_dir" -maxdepth 1 -name '*.inc'
+  [ -d "$composure_dir" ] && find "$composure_dir/" -maxdepth 1 -name '*.inc'
 }
 
 _load_composed_functions () {
