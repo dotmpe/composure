@@ -1,3 +1,7 @@
+unreleased
+==========
+  * Allow symlinked composure checkout (erichs/composure#21)
+
 1.3   / 2015-11-04
 ==================
   * Make glossary() faster by not introspecting loaded shell functions
