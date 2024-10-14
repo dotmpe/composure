@@ -1,3 +1,8 @@
+unreleased
+==========
+  * Allow symlinked composure checkout (erichs/composure#21)
+    TODO: check after merge with 1.4
+
 1.4.0 / 2022-04-04
 ==================
   * Reimplement `glossary` and `reference` with external script for performance.
